@@ -10,7 +10,7 @@ Portfolio for Full Stack Developer
     - CSS 
  
  ## Website:
-     https://idjh263.github.io/FSD_Irene_Portfolio/
+     https://idjh263.github.io/IreneH_Portfolio/
 
 ## Contribution: 
     Made by Irene Hipolito 🤪 with the help TA's, instructor @Trilogy and GOOGLE. 
