@@ -1,0 +1,268 @@
+
+body {
+    background-color: #f4f4f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0 20px;
+}
+main {
+    padding-top: 10px;
+    background-image: url(../images/green_background.jpg);
+    background-position: center;
+    min-height: 300px;
+    display: flex;
+}
+.subHeading {
+    background-color: goldenrod;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    width: 40%;
+    margin: 0 30px 0 20px;
+    overflow: hidden;
+    align-content: left;
+}
+#about-me {
+    padding: 0px;
+    font-family: cursive;
+    font-size: 20px;
+}
+#main-header {
+    background-color: greenyellow;
+    text-align: center;
+}
+#navbar {
+    background-color: teal;
+    color: #fff;
+}
+#navbar ul {
+    padding: 0;
+    list-style: none;
+    
+}
+#navbar li {
+    display: inline;
+}
+#navbar a {
+    color: lightblue;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 10px;
+    justify-content: space-between; 
+}
+#nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 2.0vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.container ul li a:hover {
+    background: greenyellow;
+    color:red;
+    border-radius: 15px;
+    text-shadow:indianred;
+}
+#profile-image {
+    flex-basis: 50%;
+    padding: 20px 0px 20px 30px;
+    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+}
+#profile-info {
+    flex: 1;
+    padding-top: 100px;
+    margin: 0;
+    color: #f4f4f4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    justify-content: space-between;
+    flex-wrap: flex;
+}
+.icons img {
+    width: 200px;
+    height: 200px;
+    border-radius: 45px;
+}
+ #currentStatus {
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    background-color: rgba(61, 245, 138, 0.8);
+    margin: 0;
+    padding: 0;
+}
+#aboutMe {
+    padding: 50px;
+    margin: 0 50px 0 50px;
+    min-height: 100px;
+    text-align: center;
+}
+#box {
+    background-color: rgba(61, 245, 138, 0.8);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#about-me {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#proj {
+    background-color: rgba(61, 245, 138, 0.8);
+    margin: 0;
+    padding: 0; 
+}
+#proj h4 {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.projectIcons img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 0
+}
+
+#contact-form {
+    background: lightseagreen;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+
+}#contact-form input, #contact-form textarea {
+    border: 2px solid darkgreen;
+    display: block;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: gray;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: rgba(255,255,255, 0.75);
+    border-radius: 10px;
+}
+#contact-form input:focus, #contact-form textarea:focus{
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+}
+#contact-form button {
+    width: 55%;
+    border: 2px solid red;
+    background-color: rgba(255,255,255, 1);
+    color: rgba(255, 0, 0, 0.475);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#contact-form button:hover {
+    color: blue;
+    background: lawngreen;
+}
+#bootcamp {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    text-align: center;
+    text-overflow: hidden;
+    padding-bottom: 0;
+}
+#other-projects img  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px 30px;
+    border: 2px black solid;
+    margin: auto;
+}
+#other-projects p {
+    text-align: center;
+    color:maroon;
+    text-decoration: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+#social img {
+    width: 70px;
+    height: 70px;
+}
+#social {
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+    padding-top: 450px;
+}
+
+#contact-form p {
+    text-align: center;
+}
+.cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: lightseagreen;
+}
+#container h1 {
+    text-align: center;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 980px) {
+    body {
+        background: mediumaquamarine;
+    }
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    #nav ul {
+        margin-top: 10px;
+        width: 100%;
+        justify-content: center; 
+        flex-direction: column;
+    }
+    #nav ul li a {
+        font-size: 16px;
+        justify-content: center;
+    }
+}
+
+ @media screen and (max-width: 575px) {
+    body {
+        background: lightskyblue;
+    }
+    #profile-info h3, p {
+        font-size: 20px;
+    }
+    #profile-image img {
+        width: 100%;
+    }
+    #contact-form p {
+        text-align: center;
+        padding-left: 20px;
+    }
+    #contact-form {
+        padding-left: 50px;
+    }
+ }
+    
+
+
+
+
